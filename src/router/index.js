@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Cartelera from '../components/Cartelera.vue'
+import Horarios from '../components/Horarios.vue'
 
 Vue.use(VueRouter)
 
@@ -19,7 +21,18 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
-  }
+  },
+  {
+    path: '/cartelera',
+    name: 'Cartelera',
+    component: Cartelera
+  },
+  
+  {
+    path: '/horarios',
+    name: 'Horarios',
+    component: Horarios
+  },
 ]
 
 const router = new VueRouter({
