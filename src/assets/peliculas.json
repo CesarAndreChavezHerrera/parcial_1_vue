@@ -1,8 +1,8 @@
 [
     {"nombrepelicula":"Los increibles", "descripcion":"Un súper héroe retirado lucha contra el aburrimiento en un suburbio y junto con su familia tiene la oportunidad de salvar al mundo.", "precio2d":"4.50", "precio3d":"6.30", "foto":"https://e00-elmundo.uecdn.es/television/programacion-tv/img/v2/programas/87/639623.png"},
     {"nombrepelicula":"Harlock: Space Pirate", "descripcion":"El Captain Harlock y su valiente tripulación encaran una lucha contra los invasores del espacio que tratan de conquistar el planeta Tierra.", "precio2d":"3.75", "precio3d":"5.25", "foto":"https://upload.wikimedia.org/wikipedia/en/a/a2/Space_Pirate_Captain_Harlock_2013_poster.jpg"},
-    {"nombrepelicula":"doctor Strange","descripcion":"La vida del famoso neurocirujano Dr. Stephen Strange cambia para siempre cuando un terrible accidente de coche le arrebata el uso de sus manos.", "precio2d":"4.30", "precio3d":"5.80", "foto":""},
+    {"nombrepelicula":"Doctor Strange","descripcion":"La vida del famoso neurocirujano Dr. Stephen Strange cambia para siempre cuando un terrible accidente de coche le arrebata el uso de sus manos.", "precio2d":"4.30", "precio3d":"5.80", "foto":""},
     {"nombrepelicula":"Los increibles", "descripcion":"Un súper héroe retirado lucha contra el aburrimiento en un suburbio y junto con su familia tiene la oportunidad de salvar al mundo.", "precio2d":"4.50", "precio3d":"6.30"},
     {"nombrepelicula":"Harlock: Space Pirate", "descripcion":"El Captain Harlock y su valiente tripulación encaran una lucha contra los invasores del espacio que tratan de conquistar el planeta Tierra.", "precio2d":"3.75", "precio3d":"5.25"},
-    {"nombrepelicula":"doctor Strange","descripcion":"La vida del famoso neurocirujano Dr. Stephen Strange cambia para siempre cuando un terrible accidente de coche le arrebata el uso de sus manos.", "precio2d":"4.30", "precio3d":"5.80"}
+    {"nombrepelicula":"Doctor Strange","descripcion":"La vida del famoso neurocirujano Dr. Stephen Strange cambia para siempre cuando un terrible accidente de coche le arrebata el uso de sus manos.", "precio2d":"4.30", "precio3d":"5.80"}
 ]

@@ -1,0 +1,8 @@
+[
+    {"nombrecomida":"Hot Dog", "descripcion":"Super hot dog, carne 100% natural, repleto de queso y pan blanco.", "Normal":"3.50", "Especial":"4.50", "foto":"https://e00-elmundo.uecdn.es/television/programacion-tv/img/v2/programas/87/639623.png"},
+    {"nombrecomida":"Nachos", "descripcion":"Los nachos se han hecho particularmente famosos en Estados Unidos y en todo el mundo, en mezclas con ingredientes como chili con carne, tocino o guacamole..", "Normal":"3.50", "Especial":"5.00", "foto":"https://upload.wikimedia.org/wikipedia/en/a/a2/Space_Pirate_Captain_Harlock_2013_poster.jpg"},
+    {"nombrecomida":"Palomitas","descripcion":"Palomitas con mantequilla, si el cliente lo desea se puede agregar caramelo o ajo.", "Normal":"2.00", "Especial":"3.00", "foto":""},
+    {"nombrecomida":"Doritos", "descripcion":"Bolsa de doritos de multiple sabores, desde queso, picante y extra picante, de distintas marcas.", "Normal":"1.00", "Especial":"1.50"},
+    {"nombrecomida":"Pizza:", "descripcion":"Pizza Gigante de 1 ingrediente + un complemento. Alcanza para 4 - 5 personas.", "Normal":"7.50", "Especial":"10.00"},
+    {"nombrecomida":"Donas","descripcion":"Donas de vanilla, chocolate, pistacho, Fresa, Coco, con relleno o sin relleno, venta por unidad.", "Normal":"1.35", "Especial":"1.75"}
+]
