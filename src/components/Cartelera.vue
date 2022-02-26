@@ -73,8 +73,9 @@
                             <h4 class="my-0 fw-normal"><b>{{item.nombrepelicula}}</b></h4>
                         </div>
                         <div class="card-body">
-                            <img src="" alt="">
+                            <img height="400" width="275" :src="item.foto" alt="">
                             <p class="card-text">
+                               <br>
                                 {{item.descripcion}}
                                 <div class="from-group row">
                                     <div class="col-xs-2">
