@@ -87,7 +87,7 @@
                                     </ul>
                                        
                                     
-                                    <a class="btn btn-primary" style="background:red" href="/horarios">Ver disponibilidad de horarios</a>
+                                    <a class="btn btn-primary" style="background:red" href="/#/horarios" v-on:click="cambio(item.nombrepelicula)">Ver disponibilidad de horarios</a>
                                 </div>
                             
                         </div>   
@@ -124,7 +124,10 @@ import peliculas from '../assets/peliculas.json'
       },
       onSlideEnd(slide) {
         this.sliding = false
-      }, 
+      },
+      cambio(nombrepelicula){
+        console.log(nombrepelicula)
+      }
     }
   }
 </script>
