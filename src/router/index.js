@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Cartelera from '../components/Cartelera.vue'
 import Horarios from '../components/Horarios.vue'
-
+import Comida from '../components/Comida.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -33,6 +33,12 @@ const routes = [
     name: 'Horarios',
     component: Horarios
   },
+  {
+    path: '/Comida',
+    name: 'Comida',
+    component: Comida
+  },
+  
 ]
 
 const router = new VueRouter({
