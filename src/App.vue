@@ -7,10 +7,10 @@
       <b-navbar-nav align='center'>
 
         <!--Inclusion aqui de la vista para ser mostrada en el Navbar-->
-        <b-nav-item to="/">Home</b-nav-item>
+        
         <b-nav-item to="/cartelera">Cartelera</b-nav-item>
         <b-nav-item to="/Comida">Comida</b-nav-item>
-     
+        <b-nav-item to="/horarios">Comida</b-nav-item>
       </b-navbar-nav>
     </b-navbar>
 

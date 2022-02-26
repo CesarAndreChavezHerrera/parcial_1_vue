@@ -86,8 +86,8 @@
                                         <li><input type="number" v-model.number="item.quantity"/></li>
                                     </ul>
                                        
-                                    
-                                    <a class="btn btn-primary" style="background:red" href="/#/horarios" v-on:click="cambio(item.nombrepelicula)">Ver disponibilidad de horarios</a>
+                                    <b-button variant="danger" v-on:click="cambio(item.nombrepelicula,index)" style="margin:5px">Ver disponibilidad de horarios</b-button>
+                                    <!--<a class="btn btn-primary" style="background:red"  v-on:click=""></a>-->
                                 </div>
                             
                         </div>   
@@ -115,6 +115,7 @@ import peliculas from '../assets/peliculas.json'
         slide: 0,
         sliding: null,
         itemsp:peliculas
+        
       }
     },
 
@@ -125,8 +126,8 @@ import peliculas from '../assets/peliculas.json'
       onSlideEnd(slide) {
         this.sliding = false
       },
-      cambio(nombrepelicula){
-        console.log(nombrepelicula)
+      cambio(nombrepelicula,index){
+        this.$router.push({path:"Horarios",query:{sort:index}});
       }
     }
   }

@@ -4,13 +4,14 @@ import Home from '../views/Home.vue'
 import Cartelera from '../components/Cartelera.vue'
 import Horarios from '../components/Horarios.vue'
 import Comida from '../components/Comida.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Cartelera
   },
   {
     path: '/about',
@@ -22,6 +23,7 @@ const routes = [
       return import(/* webpackChunkName: "about" */ '../views/About.vue')
     }
   },
+
   {
     path: '/cartelera',
     name: 'Cartelera',

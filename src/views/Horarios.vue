@@ -1,17 +1,17 @@
 <template>
   <div>
-      <h1>Seleccione la disponibilidad de horarios</h1>
+      <Horarios/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import horarios from '@/components/Horarios.vue'
+import Horarios from '@/components/Horarios.vue'
 
 export default {
-  name: 'Horarios',
+  name: 'horarios',
   components: {
-    horarios
+    Horarios
   }
 }
 </script>
