@@ -48,7 +48,7 @@ export default {
         imprimir_ticket(){
             if(this.asientos_ocupado.length > 0){
                 
-                this.$router.push({path:"/",query:{entradas:this.asientos_ocupado,tipo:this.tipo,hora:this.hora,precio:this.precio}})
+                this.$router.push({path:"/ticket",query:{entradas:this.asientos_ocupado,tipo:this.tipo,hora:this.hora,precio:this.precio}})
             }
         }
     }

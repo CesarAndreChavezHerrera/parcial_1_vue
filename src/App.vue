@@ -10,7 +10,6 @@
         
         <b-nav-item to="/cartelera">Cartelera</b-nav-item>
         <b-nav-item to="/Comida">Comida</b-nav-item>
-        <b-nav-item to="/horarios">Comida</b-nav-item>
       </b-navbar-nav>
     </b-navbar>
 
