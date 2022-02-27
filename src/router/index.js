@@ -6,6 +6,7 @@ import Horarios from '../components/Horarios.vue'
 import Comida from '../components/Comida.vue'
 import Asiento from '../components/Asiento.vue'
 import Ticket from '../components/Ticket.vue'
+import TicketComida from '../components/Ticket_comida.vue'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,11 @@ const routes = [
     path: '/ticket',
     name: 'Ticket',
     component: Ticket
+  },
+  {
+    path: '/ticketComida',
+    name: 'TicketComida',
+    component: TicketComida
   },
   {
     path: '/horarios',
