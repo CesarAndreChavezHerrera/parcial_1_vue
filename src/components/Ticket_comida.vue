@@ -36,6 +36,7 @@ export default{
     },
     created(){
         
+
         let lista = [""]
 
         
@@ -81,6 +82,7 @@ export default{
             var comida = Comida[lista_pedidos[i][0]].nombrecomida
             //console.log(comida)
 
+
             var tipo = "Normal"
             var precio = Comida[lista_pedidos[i][0]].Normal
             var cantidad = lista_pedidos[i][1]
@@ -125,6 +127,7 @@ export default{
             //console.log(comida)
 
             var tipo = "Especial"
+
             var precio = Comida[lista_pedidos[i][0]].Especial
             var cantidad = lista_pedidos[i][1]
             total_pago_especial = total_pago_especial + (parseFloat(precio)*parseFloat(cantidad))
@@ -134,6 +137,7 @@ export default{
                 "tipo":tipo,
                 "precio":precio})
         }
+
         
 
 
