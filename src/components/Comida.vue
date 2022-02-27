@@ -9,8 +9,10 @@
                             <h4 class="my-0 fw-normal"><b>{{item.nombrecomida}}</b></h4>
                         </div>
                         <div class="card-body">
-                            <img src="" alt="">
+                            <img height="300" width="275" :src="item.foto" alt="">
+                            <br>
                             <p class="card-text">
+                                
                                 {{item.descripcion}}
                                 <div class="from-group row">
                                     <div class="col-xs-2">
@@ -32,7 +34,7 @@
                 </div>
           </div> 
          <br>
-
+<button class="btn btn-primary" type="button" style="background:blue">Imprimir Ticket</button>
     </div>     
             
             
@@ -49,3 +51,5 @@ export default ({
     }
 })
 </script>
+
+

@@ -82,9 +82,11 @@
                                         <h2><b>2D </b>${{item.precio2d}}</h2>
                                         <h2><b>3D </b>${{item.precio3d}}</h2>
                                     </div>
+                                    <!--
                                     <ul class="list-unstyled mt-3 mb-4">
                                         <li><input type="number" v-model.number="item.quantity"/></li>
                                     </ul>
+                                    -->
                                        
                                     <b-button variant="danger" v-on:click="cambio(item.nombrepelicula,index)" style="margin:5px">Ver disponibilidad de horarios</b-button>
                                     <!--<a class="btn btn-primary" style="background:red"  v-on:click=""></a>-->

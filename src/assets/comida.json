@@ -1,8 +1,20 @@
 [
-    {"nombrecomida":"Hot Dog", "descripcion":"Super hot dog, carne 100% natural, repleto de queso y pan blanco.", "Normal":"3.50", "Especial":"4.50", "foto":"https://e00-elmundo.uecdn.es/television/programacion-tv/img/v2/programas/87/639623.png"},
-    {"nombrecomida":"Nachos", "descripcion":"Los nachos se han hecho particularmente famosos en Estados Unidos y en todo el mundo, en mezclas con ingredientes como chili con carne, tocino o guacamole..", "Normal":"3.50", "Especial":"5.00", "foto":"https://upload.wikimedia.org/wikipedia/en/a/a2/Space_Pirate_Captain_Harlock_2013_poster.jpg"},
-    {"nombrecomida":"Palomitas","descripcion":"Palomitas con mantequilla, si el cliente lo desea se puede agregar caramelo o ajo.", "Normal":"2.00", "Especial":"3.00", "foto":""},
-    {"nombrecomida":"Doritos", "descripcion":"Bolsa de doritos de multiple sabores, desde queso, picante y extra picante, de distintas marcas.", "Normal":"1.00", "Especial":"1.50"},
-    {"nombrecomida":"Pizza:", "descripcion":"Pizza Gigante de 1 ingrediente + un complemento. Alcanza para 4 - 5 personas.", "Normal":"7.50", "Especial":"10.00"},
-    {"nombrecomida":"Donas","descripcion":"Donas de vanilla, chocolate, pistacho, Fresa, Coco, con relleno o sin relleno, venta por unidad.", "Normal":"1.35", "Especial":"1.75"}
+    {"nombrecomida":"Hot Dog", "descripcion":"Super hot dog, carne 100% natural, repleto de queso y pan blanco.", "Normal":"3.50", "Especial":"4.50", "foto":"https://cnnespanol.cnn.com/wp-content/uploads/2021/08/CNN-hotdog.jpeg?quality=100&strip=info"},
+    {"nombrecomida":"Nachos", "descripcion":"Los nachos se han hecho particularmente famosos en Estados Unidos y en todo el mundo, en mezclas con ingredientes como chili con carne, tocino o guacamole..", "Normal":"3.50", "Especial":"5.00", "foto":"https://static.wixstatic.com/media/93657b_d1cb08162b3a4eec9d3db600dcad1de1~mv2.png/v1/fill/w_498,h_332,al_c,usm_0.66_1.00_0.01/93657b_d1cb08162b3a4eec9d3db600dcad1de1~mv2.png"},
+    {"nombrecomida":"Palomitas","descripcion":"Palomitas con mantequilla, si el cliente lo desea se puede agregar caramelo o ajo.", "Normal":"2.00", "Especial":"3.00", "foto":"https://img.remediosdigitales.com/934bbc/1366_2000/450_1000.jpeg"},
+    {"nombrecomida":"Doritos", "descripcion":"Bolsa de doritos de multiple sabores, desde queso, picante y extra picante, de distintas marcas.", "Normal":"1.00", "Especial":"1.50", "foto":"https://www.eatthis.com/wp-content/uploads/sites/4/2021/06/doritos.jpg"},
+    {"nombrecomida":"Pizza:", "descripcion":"Pizza Gigante de 1 ingrediente + un complemento. Alcanza para 4 - 5 personas.", "Normal":"7.50", "Especial":"10.00", "foto":"https://www.saborusa.com/wp-content/uploads/2019/10/Animate-a-disfrutar-una-deliciosa-pizza-de-salchicha-Foto-destacada.png"},
+    {"nombrecomida":"Donas","descripcion":"Donas de vanilla, chocolate, pistacho, Fresa, Coco, con relleno o sin relleno, venta por unidad.", "Normal":"1.35", "Especial":"1.75", "foto":"https://i.ytimg.com/vi/ecyQ5Ajldng/maxresdefault.jpg"}
+    
+
 ]
+
+
+
+
+
+
+
+
+
+
