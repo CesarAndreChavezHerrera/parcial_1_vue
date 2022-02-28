@@ -1,9 +1,11 @@
 <template>
     <div>
-        <h1>Ticket de comida </h1>
+        <br>
+        <h1 style="color:white">Ticket de comida </h1>
+        <br>
         <h3>{{peridos_especial}}</h3>
         <h3>{{peridos_normal}}</h3>
-         <b-container v-for="(item,index) in producto" v-bind:key="index" style="margin:0px">
+        <b-container  v-for="(item,index) in producto" v-bind:key="index" style="margin:0px; color:white">
 
             <b-row>
                 <b-col>{{item.cantidad}}</b-col>
@@ -14,7 +16,9 @@
             
         
         </b-container>
-        <h2>total a pagar es de: {{pago}}</h2>
+        <br>
+        <br>
+    <h2 style="margin:0px; color:white" >Total a pagar es de: $ {{pago}}</h2>
     </div>
 </template>
 

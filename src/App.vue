@@ -1,5 +1,5 @@
-<template>
-  <div id="app" style="background:black">
+<template >
+  <div id="app" >
     <br>
     <h1 style="color:white">Bienvenidos a Cine LOS BARBAROS</h1>
     <br>

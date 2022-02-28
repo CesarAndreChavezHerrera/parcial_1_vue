@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h1>escoga su asientos</h1>
-        
+        <br>
+        <h1 style="color:white">Escoga su asientos</h1>
+        <br>
         <b-container>
             <b-row v-for="(x,index) in x" v-bind:key="index" style="margin:0px">
                 <b-col v-for="(y,index) in y" v-bind:key="index">
